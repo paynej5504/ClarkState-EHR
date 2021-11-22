@@ -33,7 +33,7 @@ class Admin extends Component {
                         <Tabs id='tabs' style={{backgroundColor: '#89a9d0'}}>
                             <Tab id='adminDash' class='activ' label="Admin Dashboard" href='/admin-dash'/>
                             <Tab id='medData' label="Medication Data" href='/med-data'/>
-                            <Tab id='override' label="Override Data"/>
+                            <Tab id='override' label="Override Data" href='/override-data'/>
                         </Tabs>
                 </AppBar>
 
