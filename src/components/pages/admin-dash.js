@@ -5,6 +5,8 @@ import PatientBlock from '../subcomponents/patientTable';
 import Search from '../subcomponents/searchbar';
 import Footer from '../subcomponents/footer';
 import '../../css/footer.css';
+import AddStaff from '../subcomponents/add-staff';
+import AddPatient from '../subcomponents/add-patient'
 import SearchRight from '../subcomponents/searchbar-right';
 import '../../css/Tabs.css';
 import { Breadcrumb, BreadcrumbItem } from '@hospitalrun/components'
@@ -42,9 +44,11 @@ class Admin extends Component {
                 <br></br><br></br><br></br><br></br>
 
                 {/* Add Medical Staff Button */}
-                <button type="button" class="btn btn-warning" style={{float: 'left', marginTop: '50px', marginLeft: '15px', background: '#F5DE36'}}>Add Medical Staff</button>
+                <AddStaff/>
+               {/* <button type="button" class="btn btn-warning" style={{float: 'left', marginTop: '50px', marginLeft: '15px', background: '#F5DE36'}}>Add Medical Staff</button>*/}
                 {/* Add Patient Button */}
-                <button type="button" class="btn btn-warning" style={{float: 'right', marginTop: '50px', marginRight: '32px', background: '#F5DE36'}}>Add Patient</button>
+                {/*<button type="button" class="btn btn-warning" style={{float: 'right', marginTop: '50px', marginRight: '32px', background: '#F5DE36'}}>Add Patient</button>*/}
+                <AddPatient/>
                 <br></br><br></br><br></br><br></br>
 
                 {/* Staff Searchbar */}
